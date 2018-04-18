@@ -1,5 +1,7 @@
 <?php
 session_start();
+include 'remember.php';
+include 'redirection_nonco.php';
 ?>
 
 <!DOCTYPE html>
@@ -17,16 +19,7 @@ session_start();
 </head>
 <body>
 
-	
-
-
-	<!--<?php 
-	include 'remember.php';
-	include 'redirection_nonco.php';
-	?>-->
-
-	<?php include 'D:\wamp64\www\condamine\_views\header.html' ?>
-
+	<?php include '..\_views\header.html'; ?>
 
 	<div class="row" id="info">
 
@@ -40,24 +33,21 @@ session_start();
 			<div class="container-fluid" id="information"> 
 				<h2> Vos informations </h2>
 				<div class="container" id ="boxinfo"> 
-					<label>Nom </label> : <?php echo 'Jean' ?> <br/>
-					<label>Prénom </label> : <?php echo 'Dupuis' ?> <br/>
-					<label>Adresse mail </label> : <?php echo 'jean.dupuis@mail.fr' ?> <br/>
+					<label>Nom </label> : <?php echo $_SESSION['nom'] ?> <br/>
+					<label>Prénom </label> : <?php echo $_SESSION['prenom'] ?> <br/>
+					<label>Pseudo </label> : <?php echo $_SESSION['pseudo'] ?> <br/>
+					<label>Adresse mail </label> : <?php echo $_SESSION['email'] ?> <br/>
 					<label>Téléphone </label> : <?php echo '0666666666' ?> <br/>
 					<label>Domaine artistique </label> : <?php echo 'Danse' ?>
 				</div>
-				<p> <a href="cible.php"> Modifier mon profil </a> </p>
+				<p> <a href="../change_profil"> Modifier mon profil </a> </p>
 			</div>
 		</div>
 
+		<a href="disconnect.php">Se déconnecter</a>
 
+	</div>
 
-
-</div>	
-
-</div>
-
-<?php include 'D:\wamp64\www\condamine\_views\footer.html' ?> 
+<?php include '..\_views\footer.html' ?>
 
 </body>
-</html>

@@ -9,12 +9,9 @@
 	<link rel="stylesheet" href="../_css/style.css">
 	<link rel="stylesheet" href="../_css/signin.css"> 
 	<link rel="stylesheet" href="../_css/inscription.css">
-
 </head>
 
 <body>
-
-
 	<?php include '..\_views\header.html' ?>
 
 

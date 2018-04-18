@@ -34,7 +34,10 @@
 						<div class="container-fluid">
 							<hr>
 							<h3>QU'EST-CE QUE LA CONDAMINE?</h3> 
+<<<<<<< HEAD
 							<hr>
+=======
+>>>>>>> Martin first commit
 							<p>
 								La Condamine a été fondée en 2016, à partir d'un constat : de nos jours, de nombreux artistes ont du talent et savent créer mais rencontrent des difficultés pour structurer leur activité, organiser leur temps, financer leur création et communiquer afin de diffuser leur œuvre et vivre de leur art. C'est pourquoi nous avons décidé de mettre en place une structure permettant de partager notre savoir-faire en matière de gestion, développement économique, communication et administration.
 							</p>

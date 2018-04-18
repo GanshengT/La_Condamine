@@ -1,4 +1,4 @@
-/* Polices */
+²/* Polices */
 @font-face {
 	font-family: 'OpenSansSemibold';
 	src: url('fonts/OpenSans-Semibold.ttf');
@@ -115,4 +115,3 @@ body {
 	display: flex;
 	justify-content: space-around;
 }
-

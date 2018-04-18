@@ -8,22 +8,25 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="../_css/style.css">
 	<link rel="stylesheet" href="../_css/signin.css"> 
-	<link rel="stylesheet" href="inscriptioncss.css">
+	<link rel="stylesheet" href="../_css/inscription.css">
+
 </head>
 
 <body>
 
-<?php include '..\_views\header.html' ?>
+
+	<?php include '..\_views\header.html' ?>
 
 
-<div class="col-md-4 offset-md-4" id="formulaire">
+	<div class="col-md-4 offset-md-4" id="formulaire">
 
 
-<?php include 'inscription.php' ?>
+		<?php include 'inscription.php' ?>
 
-</div>
+	</div>
 
-<?php include '..\_views\footer.html' ?> 
+	<?php include '..\_views\footer.html' ?> 
+
 
 
 </body>

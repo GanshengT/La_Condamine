@@ -1,0 +1,88 @@
+/* Gestion des images */
+@media screen and (max-width: 600px) {
+	.image-large {
+		overflow: hidden;
+		height: 0;
+	}
+	.image-medium {
+		overflow: hidden;
+		height: 0;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 1300px) {
+	.image-large {
+		overflow: hidden;
+		height: 0;
+	}
+	.image-small {
+		overflow: hidden;
+		height: 0;
+	}
+}
+@media screen and (min-width: 1301px) {
+	.image-medium {
+		overflow: hidden;
+		height: 0;
+	}
+	.image-small {
+		overflow: hidden;
+		height: 0;
+	}
+}
+
+/* Gestion du body */
+@media screen and (min-width: 992px) {
+	#connexion {
+		position: fixed;
+		right: 0;
+		height: 70%;
+	}
+}
+@media screen and (max-width: 550px) {
+	.article>.container-fluid>h3 {
+		text-align: center !important;
+	}
+	.article>.container-fluid {
+		font-size: 16px !important;
+	}
+}
+
+/* Design */
+h1 {
+	font-family: 'OpenSansSemibold';
+	font-size: 50px;
+}
+h2 {
+	font-family: 'OpenSansItalic';
+}
+h3 {
+	font-family: 'RobotoSlab';
+}
+h4 {
+	text-align: center;
+}
+#body {
+	background: linear-gradient(to bottom right, #313131, #004457);
+	padding: 0px;
+}
+hr {
+	background-color: #D39D2F;
+}
+.article {
+	margin-bottom: 100px;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+}
+.article>div>h3 {
+	color: #D39D2F;
+	text-align: center;
+}
+.article>.container-fluid {
+	padding: 0px 30px 0px 30px;
+}
+
+#connexion {
+	display: flex;
+	align-items: center;
+}

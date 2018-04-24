@@ -25,7 +25,7 @@
     </div>
 
   <form class="form-inscription" action="cible2.php" method="post" id="formulaire"> <!-- on définit le fichier cible "cible.php" -->
-    <h2 class="form-inscription-heading">Inscrivez-vous</h2>
+    <h2 class="form-inscription-heading" id="titre_form">Inscrivez-vous</h2>
     
 
     <label for="inputEmail" class="sr-only">Adresse mail</label>

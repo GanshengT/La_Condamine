@@ -1,0 +1,21 @@
+#formulaire {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+input {
+	margin-top : 10px;
+	margin-bottom: 10px;
+}
+
+#titre_form {
+	margin-top: 7vh;
+	margin-bottom: 25px;
+	font-family: 'RobotoSlab';
+	text-align: center;
+}
+
+button {
+	margin-top: 8vh;
+	margin-bottom: 10vh;
+}

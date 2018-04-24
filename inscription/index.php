@@ -1,7 +1,7 @@
 </!DOCTYPE html>
 <html>
 <head>
-		<meta charset="UTF-8">
+	<meta charset="UTF-8">
 	<link rel="shortcut icon" href="img/favicon.png">
 	<title> Inscription </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="../_css/style.css">
 	<link rel="stylesheet" href="../_css/signin.css"> 
 	<link rel="stylesheet" href="../_css/inscription.css">
-</head>
 
 <body>
 	<?php include '..\_views\header.html' ?>
@@ -23,6 +22,8 @@
 	</div>
 
 	<?php include '..\_views\footer.html' ?> 
+esheet" href="../_css/inscription.css">
+</head>
 
 
 

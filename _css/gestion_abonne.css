@@ -1,0 +1,25 @@
+.form-abonne {
+	margin-top: 10vh;
+	margin-bottom: 15vh;
+	text-align: center;
+
+}
+
+.form-abonne-heading {
+	margin-bottom: 7vh;
+	font-family: 'RobotoSlab';
+}
+
+
+#nom_abonne>p {
+	border-bottom : solid #D39D2F ;
+	border-width: 1px;
+	margin-bottom: 0px;
+	margin-top: 6px;
+	font-family: 'RobotoSlab';
+}
+
+
+#btn_abonne {
+	margin-top: 8vh;
+}

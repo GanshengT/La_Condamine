@@ -66,6 +66,7 @@ $reponse=$bdd->query('SELECT pseudo,nom,prenom FROM membres WHERE id_groupe =\'e
     $reponse->closeCursor();
     ?>
 
+    <?php include '../_views/footer.html' ?>
 
 </body>
 </html>

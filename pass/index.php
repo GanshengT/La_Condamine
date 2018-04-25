@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../_css/style.css">
     <link rel="stylesheet" href="../_css/signin.css"> 
     <link rel="stylesheet" href="../_css/inscription.css">
+    <link rel="stylesheet" href="../_css/pass.css">
 </head>
 
 
@@ -16,10 +17,9 @@
 
     <?php include '..\_views\header.html' ?>
 
-    <div class="col-md-4 offset-md-4" id="formulaire">
+    <div class="col-md-4 offset-md-4" id="pass_form">
 
     
-
 		<div class="container">
 		  <form class="form-compte" action="cible_pass.php" method="post"> <!-- on définit le fichier cible "cible.php" -->
 		    <h2 class="form-pass-heading" id="titre_form">Modifier votre mot de passe</h2>

@@ -1,7 +1,7 @@
 <?php 
 session_start();
-include("views/remember.php");
-include("views/redirection_nonco.php");
+include("../views/remember.php");
+include("../views/redirection_nonco.php");
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
@@ -22,7 +22,7 @@ function upload($index,$destination,$maxsize=FALSE,$extensions=FALSE)
      $ext = substr(strrchr($_FILES[$index]['name'],'.'),1);
      if ($extensions !== FALSE AND !in_array($ext,$extensions)){return False;}
    //Déplacement
-     return move_uploaded_file($_FILES[$index]['tmp_name'],$destination);
+     return move_uploaded_file($_FILES[$index]['tmp_name'],'../'.$destination);
 }
 
 

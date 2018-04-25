@@ -1,7 +1,7 @@
 <?php 
 session_start();
-include("views/remember.php");
-include("views/redirection_nonco.php");
+include("../views/remember.php");
+include("../views/redirection_nonco.php");
 
 try
 {

@@ -8,8 +8,8 @@ catch(Exception $e)
         die('Erreur : '.$e->getMessage());
 }
 session_start();
-include("views/remember.php");
-include("views/redirection_nonco.php");
+include("../views/remember.php");
+include("../views/redirection_nonco.php");
 
 $req = $bdd->query('SELECT up_nom_final, up_id_user, up_ext, nom FROM upload JOIN membres WHERE upload.up_id_user=membres.id');
 

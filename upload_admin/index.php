@@ -1,4 +1,5 @@
 <?php 
+// Page sur laquelle les admins peuvent demander envoyer des documents aux utilisateurs de leur choix.
 try
 {
     $bdd = new PDO('mysql:host=localhost;dbname=test;charset=utf8', 'root', '');
@@ -9,8 +10,8 @@ catch(Exception $e)
 }
 
 session_start();
-include("views/remember.php");
-include("views/redirection_nonco.php");
+include("../views/remember.php");
+include("../views/redirection_nonco.php");
 
 $req = $bdd->query('SELECT id, pseudo, nom, prenom FROM membres WHERE id_groupe=\'abonne\'');
 

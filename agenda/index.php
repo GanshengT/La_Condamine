@@ -40,8 +40,16 @@ fclose($file);
 <head>
 	<meta charset="UTF-8">
 	<title>Agenda</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <?php
+    /*<link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker-master/bootstrap-master/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="bootstrap-datetimepicker-master/bootstrap-master/dist/js/bootstrap.js"></script>
+    <script src="bootstrap-datetimepicker-master/moment-develop/moment.js"></script>
+    <script src="bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+    */
+    ?>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="../_css/style.css">
 	<link rel="stylesheet" href="../_css/agenda.css">
@@ -52,7 +60,6 @@ fclose($file);
 	<script src='fullcalendar/lib/jquery.min.js'></script>
 	<script src='fullcalendar/fullcalendar.min.js'></script>
 	<script src='fullcalendar/locale/fr.js'></script>
-	<script src="niceDatePicker-master/nice-date-picker.js"></script>
 	<script>
 	$(document).ready(function() {
 		var events = [];
@@ -113,27 +120,16 @@ fclose($file);
                     <label for="date">Date: </label>
                     <span class="calendar1-msg"><input id="#dateField" type="text" name="date" value="" placeholder="Date">
                     </span>
+                    <a href="bootstrap-datetimepicker-master/test/screen-capture/base.html">click to select</a>
                     
                     <p><input type="submit" value="confirm" /></p>
                     
-                    <div id="calendar1">
-                        <div id="calendar1-wrapper1"></div>
-                    </div>
                 </form>
             </div>
+            
 	   </div>
     </div>
 
-    <script>
-    new niceDatePicker({
-   dom:document.getElementById('calendar1-wrapper1'),
-   onClickDate:function(date){
-       document.querySelector('.calendar1-msg').innerHTML=date;
-       var psel = document.getElementById("dateField");
-       psel.nodeValue=date
-    }
-    });
-    </script>
     
 	<?php include '../_views/footer.html' ?>
 	

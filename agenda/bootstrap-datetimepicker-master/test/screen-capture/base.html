@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../../bootstrap-master/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="../../build/css/bootstrap-datetimepicker.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="../../../bootstrap-datetimepicker-master/bootstrap-master/dist/js/bootstrap.js"></script>
+<script src="../../../bootstrap-datetimepicker-master/moment-develop/moment.js"></script>
+<script src="../../../bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+               <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+</body>
